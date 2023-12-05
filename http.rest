@@ -12,3 +12,6 @@ content-type: application/json
   "email": "john.doe465@gmail.com",
   "password": "123456"
 }
+
+###
+POST {{baseURL}}sessions
