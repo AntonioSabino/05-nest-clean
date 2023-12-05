@@ -14,4 +14,11 @@ content-type: application/json
 }
 
 ###
+# @name create session
 POST {{baseURL}}sessions
+content-type: application/json
+
+{
+  "email": "john.doe465@gmail.com",
+  "password": "123456"
+}
